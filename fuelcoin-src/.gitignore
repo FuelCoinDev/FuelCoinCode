@@ -1,0 +1,34 @@
+src/*.exe
+src/FuelCoin
+src/FuelCoind
+src/test_FuelCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.FuelCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+FuelCoin-qt
+FuelCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+FuelCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
